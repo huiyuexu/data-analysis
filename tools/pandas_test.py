@@ -8,3 +8,5 @@ ds = pd.DataFrame(s)
 
 d.head()
 d.describe()
+
+print(s)
