@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-D:\GitWork\Data\chapter3\demo\code\3-1_abnormal_check.py
 # 3-1
-# @ author:Amos
+'''
+@ author: Amos
+'''
 
 import pandas as pd
 import matplotlib.pyplot as plt
