@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan 18 11:25:38 2018
-
 @author: Amos
 """
 

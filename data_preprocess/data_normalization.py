@@ -3,6 +3,8 @@
 Created on Thu Jan 18 16:14:38 2018
 
 @author: Amos
+
+规范化：归一化
 """
 
 import pandas as pd
