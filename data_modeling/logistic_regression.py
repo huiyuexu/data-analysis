@@ -19,6 +19,7 @@ y = data.iloc[:, 8].as_matrix()
 from sklearn.linear_model import LogisticRegression as LR
 from sklearn.linear_model import RandomizedLogisticRegression as RLR 
 
+
 lr = LR() #建立逻辑货柜模型
 lr.fit(x, y) #用筛选后的特征数据来训练模型
 print(u'逻辑回归模型训练结束。')
