@@ -28,7 +28,7 @@ model.add(Activation('sigmoid')) #由于是0-1输出，用sigmoid函数作为激
 #另外常见的损失函数还有mean_squared_error、categorical_crossentropy等，请阅读帮助文件。
 #求解方法我们指定用adam，还有sgd、rmsprop等可选
 model.compile(loss = 'binary_crossentropy',
-              mode = 'binary', optimizer = 'adam')
+              optimizer = 'adam')
 
 model.fit(x, y, epochs = 100, batch_size = 10) #训练模型，学习一千次
 yp = model.predict_classes(x).reshape(len(y)) #分类预测
